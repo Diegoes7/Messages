@@ -1,0 +1,178 @@
+* , a:focus{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+outline: none;
+}
+
+#app {
+    background-image: url('./images/landscape.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em 10em 1em 10em;
+    margin: 0 2em 0 2em;
+}
+
+#menu {
+    background: #DDD;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 1.5em;
+    line-height: 1.2;
+    border-radius: 30px;
+    height: 2em;
+    overflow: auto;
+}
+
+#menu a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#menu a:hover {
+    background: rgb(32, 223, 80);
+    color: white;
+}
+
+#menu>#spanMenuLoggedInUser {
+    float: right;
+    margin-right: 10px;
+}
+
+#infoBox, #errorBox, #loadingBox {
+    width: 80%;
+    margin: 10px auto;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+    border-radius: 20px;
+}
+
+#loadingBox {
+    background: #7CB3E9;
+}
+
+#infoBox {
+    background: #393;
+}
+
+#errorBox {
+    background: #F50;
+}
+.main {
+    width: auto;
+    height: 33em;
+}
+
+main > section {
+    padding: 20px 5px;
+}
+
+section h1 {
+    margin: 10px 0px;
+    font-size: 1.3em;
+}
+
+table th {
+    background: #DDD;
+    padding: 10px;
+}
+
+table td {
+    padding: 5px 10px;
+    background: #EEE;
+}
+
+input:required:invalid, input:focus:invalid {
+    height: 3em;
+    width: 4.5;
+    border-radius: 50px;
+    background-position: right top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+input:required:valid { 
+    height: 3em;
+    width: 4.5;
+    border-radius: 50px;  
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+#viewUserHome a {
+    display: inline-block;
+    width: 10em;
+    text-align: center;
+    background: #BBB;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    text-decoration: none;
+    border: 5px solid rgb(102, 189, 167);
+}
+
+
+#viewUserHome{
+display: block;
+}
+
+#viewUserHome a:hover {
+    color: white;
+    background: #555;
+}
+
+
+footer {
+    margin-bottom: 0.5;
+    background: #DDD;
+    padding: 15px 15px;
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#app {
+    margin-bottom: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.btn {
+  height: 2em;
+  width: 6em;
+  margin: 0.3em 0;
+  border-radius: 50px;
+  margin-left: 3.5em;
+}
+.btn:hover {
+    background-color: rgb(91, 26, 175);
+    color: white;
+}
+
+.login {
+    font-size: 1.3em;
+    overflow: hidden;
+}
+
+.messages {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+}
+
+#msgText {
+    height: 10em;
+    width: auto;
+}
+
+table, th, td {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+}
+
